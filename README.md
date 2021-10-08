@@ -1,2 +1,2 @@
 # Calculator-hactoberfest
-A simple calculator is made by using HTML ,CSS and JS.
+A simple calculator is made by vikash using html, css and Js.
