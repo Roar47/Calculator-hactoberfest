@@ -5,7 +5,7 @@
             {
                 document.getElementById("result").value+=val;
             }
-            function calcculate()
+            function calculate()
             {
                 var str=document.getElementById("result").value;
                 var ans=eval(str);
@@ -39,6 +39,7 @@
             {
                 background-color:white;
                 border: solid black 2px;
+                text-align: right;
                 width:100%
             }
 
@@ -99,7 +100,7 @@
                 <tr>
                     <td><input type="button" value="." onclick="display('.')"/> </td>
                     <td><input type="button" value="0" onclick="display('0')"/> </td>
-                    <td><input type="button" value="=" onclick="calcculate()"/> </td>
+                    <td><input type="button" value="=" onclick="calculate()"/> </td>
                     <td><input type="button" value="*" onclick="display('*')"/> </td>
                 </tr>
             </table>
